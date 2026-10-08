@@ -1,0 +1,26 @@
+{
+ "none": {
+  "invalid_rate": 0.03749999999999998,
+  "wasted_pass_rate": 0.45159194282001297,
+  "mean_effective_len": 19.98701298701299,
+  "gm_sample_size_vs_oz": 2.2265460851684056,
+  "gm_best_of_n_vs_oz": 1.464098556942504,
+  "n": 80
+ },
+ "static": {
+  "invalid_rate": 0.03749999999999998,
+  "wasted_pass_rate": 0.4444444444444444,
+  "mean_effective_len": 19.753246753246753,
+  "gm_sample_size_vs_oz": 2.1742465003140388,
+  "gm_best_of_n_vs_oz": 1.4512796321917405,
+  "n": 80
+ },
+ "dynamic": {
+  "invalid_rate": 0.0,
+  "wasted_pass_rate": 0.4573055028462998,
+  "mean_effective_len": 19.7625,
+  "gm_sample_size_vs_oz": 1.730039307781443,
+  "gm_best_of_n_vs_oz": 1.3353752569320825,
+  "n": 80
+ }
+}

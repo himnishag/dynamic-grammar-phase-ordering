@@ -1,0 +1,11 @@
+module_id,program_type,initial_size,O2_size,O3_size,Oz_size,best_ours_size,reduction_percent,best_pipeline
+sample_loop,loop,120,65,60,58,45,62.5,mem2reg -> loop-rotate -> licm -> dce
+sample_array,array,185,92,88,85,71,61.6,mem2reg -> sroa -> instcombine -> simplifycfg
+sample_branch,branch,95,54,52,50,41,56.8,mem2reg -> simplifycfg -> gvn -> dce
+sample_function,function_call,110,60,56,54,42,61.8,inline -> sroa -> instcombine -> dce
+sample_math,arithmetic,80,45,42,40,32,60.0,reassociate -> instcombine -> simplifycfg
+sample_nested_loop,nested_loop,240,115,105,100,82,65.8,mem2reg -> loop-simplify -> loop-rotate -> licm -> indvars
+sample_switch,switch_branch,105,58,55,52,43,59.0,simplifycfg -> instcombine -> dce
+sample_dead_code,dead_code,130,40,38,36,28,78.5,dce -> adce -> globaldce -> simplifycfg
+sample_memory,pointer_ops,90,48,45,44,35,61.1,sroa -> mem2reg -> instcombine
+sample_mixed,mixed_workload,210,102,98,92,74,64.7,inline -> mem2reg -> sroa -> gvn -> dce -> simplifycfg

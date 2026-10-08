@@ -1,0 +1,51 @@
+{
+ "random-dynamic": {
+  "gm_obj_vs_oz": 1.120194732058005,
+  "gm_obj_vs_o3": 1.0889033202402059,
+  "n": 10
+ },
+ "random-nogrammar": {
+  "gm_obj_vs_oz": 1.1116956567943832,
+  "gm_obj_vs_o3": 1.0806416573268955,
+  "n": 10
+ },
+ "hillclimb": {
+  "gm_obj_vs_oz": 1.1589199309744636,
+  "gm_obj_vs_o3": 1.1265467731777357,
+  "n": 10
+ },
+ "genetic": {
+  "gm_obj_vs_oz": 1.1348175290538451,
+  "gm_obj_vs_o3": 1.1031176454323228,
+  "n": 10
+ },
+ "diff-openloop": {
+  "gm_obj_vs_oz": 1.067862803274209,
+  "gm_obj_vs_o3": 1.0380332265176988,
+  "n": 10
+ },
+ "diff-closedloop": {
+  "gm_obj_vs_oz": 1.030988234423621,
+  "gm_obj_vs_o3": 1.0021887083239172,
+  "n": 10
+ },
+ "diff-closedloop-static": {
+  "gm_obj_vs_oz": 1.040554408177611,
+  "gm_obj_vs_o3": 1.0114876615010824,
+  "n": 10
+ },
+ "diff-closedloop-none": {
+  "gm_obj_vs_oz": 1.0235722663787836,
+  "gm_obj_vs_o3": 0.9949798972165994,
+  "n": 10
+ },
+ "diff-zeroshot": {
+  "gm_obj_vs_oz": 1.1160623073827847,
+  "gm_obj_vs_o3": 1.084886330318085,
+  "n": 10
+ },
+ "-O3": {
+  "gm_obj_vs_oz": 1.0287366299984249,
+  "gm_obj_vs_o3": 1.0
+ }
+}

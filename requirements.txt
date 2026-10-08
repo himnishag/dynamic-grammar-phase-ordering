@@ -1,0 +1,5 @@
+torch>=2.2
+numpy
+scipy
+matplotlib
+datasets      # only needed for: fetch_dataset.py --source compile
